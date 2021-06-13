@@ -1,0 +1,123 @@
+.App{
+    background: #e9e8e9;
+    text-align: center;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.income-expense{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px auto;
+    color: blanchedalmond;
+    background: rgb(158, 152, 152);
+    box-shadow: black 4px 3px 4px 1px;
+    border-radius: 15px;
+}
+
+.incomeField{
+    box-sizing: border-box;
+    width: 50%;
+    background: green;
+    border-right: 2px solid gray;
+    padding: 20px;
+}
+
+.expenseField{
+    box-sizing: border-box;
+    width: 50%;
+    background: red;
+    border-right: 2px solid gray;
+    padding: 20px;
+}
+
+.expenseField h4{
+    text-align: center;
+    margin: 0;
+}
+
+.income-expense h4{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+}
+
+.income-expense .amount{
+    font-size: 15px;
+}
+
+.sub-heading{
+    font-size: 24px;
+    margin: 0;
+}
+
+.balance{
+    font-size: 22px;
+    margin: 0;
+    padding: 20px;
+}
+
+.transactionHistory{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.transactionHistory ul{
+    list-style: none;
+}
+
+.transactionHistory ul li{
+    font-size: 17px;
+    margin: 10px;
+    border-bottom: 2px solid gray;
+    padding: 5px;
+}
+
+.form{
+    padding: 20px;
+    width: 50%;
+    margin: 20px auto;
+}
+.form label{
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.form input{
+    background: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    outline: none;
+    width: 70%;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.form button{
+    width: 80%;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 17px;
+    outline: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.form button:hover{
+    transform: scale(1.04);
+}
+
+
+.form .incomebtn{
+    background: green;
+}
+
+.form .expensebtn{
+    background: red;
+}
